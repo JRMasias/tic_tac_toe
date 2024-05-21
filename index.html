@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-neutral-900">
+    <header class="mt-10 text-center">
+      <h1 class="text-blue-500 text-5xl md:text-7xl">Tic Tac Toe</h1>
+      <p class="text-neutral-900 mt-3 error-msg text-xl md:text-2xl">
+        Choose a different location
+      </p>
+    </header>
+    <main class="flex flex-col justify-center items-center mt-10">
+      <!-- First Row -->
+      <section class="flex justify-center items-center">
+        <!-- Choice 1 -->
+        <div
+          class="border-r-8 border-b-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-1 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-1-choice text-center"
+          ></h1>
+        </div>
+        <!-- Choice 2 -->
+        <div
+          class="border-b-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-2 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-2-choice text-center"
+          ></h1>
+        </div>
+        <!-- Choice 3 -->
+        <div
+          class="border-l-8 border-b-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-3 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-3-choice text-center"
+          ></h1>
+        </div>
+      </section>
+      <!-- Second Row -->
+      <section class="flex justify-center items-center">
+        <!-- Choice 4 -->
+        <div
+          class="border-r-8 border-b-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-4 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-4-choice text-center"
+          ></h1>
+        </div>
+        <!-- Choice 5 -->
+        <div
+          class="border-b-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-5 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-5-choice text-center"
+          ></h1>
+        </div>
+        <!-- Choice 6 -->
+        <div
+          class="border-l-8 border-b-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-6 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-6-choice text-center"
+          ></h1>
+        </div>
+      </section>
+      <!-- Third Row -->
+      <section class="flex justify-center items-center">
+        <!-- Choice 7 -->
+        <div
+          class="border-r-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-7 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-7-choice text-center"
+          ></h1>
+        </div>
+        <!-- Choice 8 -->
+        <div
+          class="h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-8 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-8-choice text-center"
+          ></h1>
+        </div>
+        <!-- Choice 9 -->
+        <div
+          class="border-l-8 rounded-lg border-purple-400 h-24 w-24 md:h-48 md:w-48 md:hover:bg-neutral-600 md:hover:cursor-pointer box-9 flex items-center justify-center"
+        >
+          <h1
+            class="text-6xl md:text-9xl text-red-600 box-9-choice text-center"
+          ></h1>
+        </div>
+      </section>
+      <button
+        type="button"
+        class="bg-green-600 p-3 rounded-xl font-bold text-2xl mt-20 md:mt-20 reset-btn"
+      >
+        Play Again
+      </button>
+    </main>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

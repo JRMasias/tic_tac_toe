@@ -1,3 +1,5 @@
+// Single file for all of game control
+
 // Variables
 var box_1_choice = document.querySelector(".box-1-choice");
 var box_2_choice = document.querySelector(".box-2-choice");
